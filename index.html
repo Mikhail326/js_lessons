@@ -12,10 +12,31 @@
 
 <body>
 
-  <div id = 1 class="item">X</div>
-
-  <button class="button">add</button>
-  <button class="button-delete">delete</button>
+  <div class="container">
+    <ul class="list">
+      <li data-title='Заголовок 1' data-price='10 000$' class="list__item">
+        <h2>Заголовок 1</h2>
+        <h3>10 000$</h3>
+      </li>
+      <li data-title='Заголовок 2' data-price='20 000$' class="list__item">
+        <h2>Заголовок 2</h2>
+        <h3>20 000$</h3>
+      </li>
+      <li data-title='Заголовок 3' data-price='30 000$' class="list__item">
+        <h2>Заголовок 3</h2>
+        <h3>30 000$</h3>
+      </li>
+      <li data-title='Заголовок 4' data-price='40 000$' class="list__item">
+        <h2>Заголовок 4</h2>
+        <h3>40 000$</h3>
+      </li>
+    </ul>
+  </div>
+  <div class="popup">
+    <div class="popup__block">
+      <button id="close-popup">X</button>
+    </div>
+  </div>
 
   <script src="main.js"></script>
 </body>
